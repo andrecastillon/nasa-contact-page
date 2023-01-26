@@ -11,9 +11,37 @@ body {
 
 }
 
+#container {
+  margin: 100px;
+}
+
 h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 900;
   font-style: italic;
   font-size: 150px;
+
+}
+
+#Photo {
+  border: 1px solid white;
+  position: relative;
+
+  height: auto; 
+}
+
+#Info {
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-media p {
+  margin: 0;
+  margin-bottom: 6px;
+}
+
+img {
+  position: absolute;
+  top: 0;
 }
