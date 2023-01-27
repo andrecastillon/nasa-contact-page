@@ -14,7 +14,7 @@
  <div id="container">
   <div id="Photo">
     <h1>Nasa</h1>
-    <!-- <img src="/spacephoto.jpg" alt="Photo of Space"> -->
+    <img src="/spacephoto.jpg" alt="Photo of Space">
   </div>
   <div id="Info">
     <div class="social-media">
@@ -35,6 +35,7 @@
     </div>
       <div class="contact-us">
       <h2>Contact Us</h2>
+      <form>
     <div class="name-box">
       <label for="Name">Name:</label>
       <br>
@@ -44,9 +45,11 @@
     <div class="msg-box">
       <label for="Message">Message:</label>
       <br>
-      <input type="text" id="msg-box" name="Message">
+      <textarea type="text" id="Message" name="Message" rows="6" maxlength="120"> </textarea>
     </div>
+    <button>Send</button>
       </div>
+    </form>
   </div>
 </div>
 </body>
